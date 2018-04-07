@@ -13,7 +13,7 @@
 #include <stdlib.h>
 
 void ERROR(int);
-void Print(char**, int, int*, int);
+void Print(char content[MAXCOL][MAXLENGTH], int colmax, int chrmax[MAXCOL], int count);
 char content[MAXCOL][MAXLENGTH];
 
 int main(int argc, char const *argv[])
